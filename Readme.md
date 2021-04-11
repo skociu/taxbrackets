@@ -4,7 +4,7 @@ The following is just for illustration purposes in calculating taxes and is not 
 ## Function used to perform the calculations
 To perform the calculations, I've created a custom defined function called CalcTax which takes as input two variables, the taxable amount and the tax table
 
-'''
+```
 Public Function CalcTax(Amount As Range, TaxTable As Range) As Single
 Dim n As Integer
 Dim m As Integer
@@ -30,4 +30,4 @@ Next m
 
 End Function
 
-'''
+```
